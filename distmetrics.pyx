@@ -44,8 +44,8 @@ DTYPE = np.float64
 ctypedef np.float64_t DTYPE_t
 
 # index type
-ITYPE = np.int32
-ctypedef np.int32_t ITYPE_t
+ITYPE = Py_ssize_t
+ctypedef Py_ssize_t ITYPE_t
 
 ###############################################################################
 # Define data structures needed for distance calculations
